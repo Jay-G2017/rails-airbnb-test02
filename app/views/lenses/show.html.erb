@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lense.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @lense.user %>
+</p>
+
+<%= link_to 'Edit', edit_lense_path(@lense) %> |
+<%= link_to 'Back', lenses_path %>
